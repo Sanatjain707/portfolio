@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanat Jain | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <div class="Container">
+            <nav>
+                <img src="My resources/Logo 1.png" class="Logo">
+                <ul id="listItems">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                    <p class="sidebtn" onclick="hideSideBar()">Close</p>
+                </ul>
+                <p class="sidebtn" id="showbtn" onclick="showSideBar()">Menu</p>
+            </nav>
+
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I am <span>Sanat Jain</span><br> From India.</h1>
+                <a href="https://drive.google.com/u/0/uc?id=1sttGLtjr6iLMN3MbXP6QMD1Z5vXChK_1&export=download" class="btn btn2">Download Resume</a>
+            </div>
+
+        </div>
+
+    </div>
+<!-- ------------------about----------------- -->
+    <div id="about">
+        <div class="Container">
+            <div class="row">
+                <div class="about-col-1"><img src="" alt="Owner-image"></div>
+                <div class="about-col-2"><h1 class="subtitle">About Me</h1>
+                    <p>I am in final year of my graduation
+                        and looking for an opportunity to
+                        apply my expertise in the field of
+                        Information Technology, and make
+                        effective use of my technical skills
+                        to get the best out of myself as a
+                        software engineer and bring more
+                        efficiency to the organization.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages</span><br>Java, Python, C, Kotlin, JavaScript, Sql.</li>
+                            <li><span>Web Development</span><br>HTML, CSS, Node.js, React.js, Bootstrap.</li>
+                            <li><span>Apps Development</span><br>Android Studio, Kotlin.</li>
+                            <li><span>Expertise</span><br>Data Structures and Algorithims with java.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>JAVA</span><br>Nasscom Java Excillence Certificate.<br>Nasscom Java Completion Certificate.</li>
+                            
+                            <li><span>Web Development</span><br>HTML CSS JavaScript Certification from Coursera
+                                John hopkins University.</li>
+                            <li><span>Python</span><br>Python Certification from Guvi.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech in Computer Science and Engineering (A.K.T.U)</span><br>Krishna Engineering College&emsp;2019 - 2023</li>
+                            <li><span>Intermediate School (C.B.S.E. Board)</span><br>P.C. School&emsp;2017 - 2018</li>
+                            <li><span>High School (C.B.S.E. Board)</span><br>P.C. School&emsp;2015 - 2016</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- ----------------------------services------------------------------- -->
+
+    <div id="services">
+        <div class="Container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>App Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis 
+                    optio ut aliquid nulla? Corporis eveniet voluptatibus reiciendis doloribus laboriosam a molestiae quasi aut! Nobis velit 
+                    officia facere iste provident architecto?</p>
+                    <a href="#">Learn More...</a>
+            </div>
+            <div>
+                <h2>Frontend Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis 
+                    optio ut aliquid nulla? Corporis eveniet voluptatibus reiciendis doloribus laboriosam a molestiae quasi aut! Nobis velit 
+                    officia facere iste provident architecto?</p>
+                    <a href="#">Learn More...</a>
+            </div>
+            <div>
+                <h2>Backend Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis 
+                    optio ut aliquid nulla? Corporis eveniet voluptatibus reiciendis doloribus laboriosam a molestiae quasi aut! Nobis velit 
+                    officia facere iste provident architecto?</p>
+                    <a href="#">Learn More...</a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- --------------------------Portfolio----------------------------- -->
+
+    <div id="portfolio">
+        <div class="Container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Labore ex autem, nulla possimus temporibus deserunt!</p>
+                        <a href="#">Icon</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" >
+                    <div class="layer">
+                        <h3>Music Player App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Labore ex autem, nulla possimus temporibus deserunt!</p>
+                        <a href="#">Icon</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" >
+                    <div class="layer">
+                        <h3>Shopping App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                         Labore ex autem, nulla possimus temporibus deserunt!</p>
+                        <a href="#">Icon</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+<!-- ------------------------contacts--------------------- -->
+
+    <div id="contacts">
+        <div class="Container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p>sanatjain707@gmail.com</p>
+                    <p>9871457447</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/imcoolsanatjain">Facebook</a>
+                        <a href="#Twitter">Github</a>
+                        <a href="https://www.instagram.com/imcoolsanatjain/">Instagram</a>
+                        <a href="https://www.linkedin.com/in/sanatjain707/">Linkedin</a>
+                    </div>
+                    
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="email" placeholder="johndoe@yourmail.com" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Sanat Jain.</p>
+        </div>
+    </div>
+
+<script>
+    
+        var tabLinks = document.getElementsByClassName("tab-links");
+        var tabContents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+
+        for(tablink of tabLinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabContents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+
+        function showSideBar(){
+            document.getElementById("listItems").style.right = "0";
+            document.getElementById("showbtn").style.display = "none";
+        }
+        function hideSideBar(){
+            document.getElementById("listItems").style.right = "-150px";
+            document.getElementById("showbtn").style.display = "block";
+        }
+
+</script>
+
+</body>
+</html>
