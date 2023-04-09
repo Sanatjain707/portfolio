@@ -7,7 +7,7 @@
     <title>Sanat Jain | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body onload="changeVisit()">
+<body>
     <div id="header">
         <div class="Container">
             <nav>
@@ -22,7 +22,6 @@
                 </ul>
                 <p class="sidebtn" id="showbtn" onclick="showSideBar()">Menu</p>
             </nav>
-            <div class="visits">Total Visits :- 0</div>
             <div class="header-text">
                 <p>Software Engineer</p>
                 <h1>Hi, I am <span>Sanat Jain</span><br> From India.</h1>
@@ -212,14 +211,6 @@
         function hideSideBar(){
             document.getElementById("listItems").style.right = "-150px";
             document.getElementById("showbtn").style.display = "block";
-        }
-
-
-        let currentVisit = localStorage.getItem("CurrentVisits");
-        var visit = document.querySelector(".visits");
-        function changeVisit(){
-            visit.innerText = `Total Visits :- ${++currentVisit}`;
-            localStorage.setItem("CurrentVisits",currentVisit);
         }
 
 </script>
