@@ -168,12 +168,10 @@ width: 100%;
     font-weight: 500;
     margin-bottom: 15px;
 }
-.services-list div a{
-    text-decoration: none;
+.services-list div li{
     color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .services-list div:hover{
@@ -189,7 +187,7 @@ width: 100%;
 }
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -341,7 +339,15 @@ form button{
     .Logo{
         width: 205px;
     }
-    
+    .work-list{
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    }
+   
+    .work:hover .layer p{
+        display: none;
+    }
+
+
     #header{
         background-size: 160%;
         background-position: -45px 140px;
